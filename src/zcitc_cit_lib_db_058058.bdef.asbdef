@@ -1,0 +1,20 @@
+projection implementation in class ZCITBP_C_CIT_LIB_DB_058058 unique;
+strict ( 2 );
+extensible;
+use draft;
+use side effects;
+define behavior for ZCITC_CIT_LIB_DB_058058 alias ZcitcCitLibDb058058
+extensible
+use etag
+{
+  use create;
+  use update;
+  use delete;
+
+  use action Edit;
+  use action Activate;
+  use action Discard;
+  use action Resume;
+  use action Prepare;
+
+}

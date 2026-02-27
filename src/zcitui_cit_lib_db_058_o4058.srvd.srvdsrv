@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZCITC_CIT_LIB_DB_058058'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZCITC_CIT_LIB_DB_058058'
+  }
+}
+define service ZCITUI_CIT_LIB_DB_058_O4058 provider contracts odata_v4_ui {
+  expose ZCITC_CIT_LIB_DB_058058;
+}
